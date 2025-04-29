@@ -1,0 +1,66 @@
+<div class="employee-container">
+
+    <h1>Employee Management</h1>
+  
+    <!-- Search Section -->
+    <div class="search-section">
+      <input type="number" placeholder="Search by ID" [(ngModel)]="searchId">
+      <button (click)="searchById()">Search</button>
+  
+      <select [(ngModel)]="searchDepartment">
+        <option value="" disabled selected>Select Department</option>
+        <option *ngFor="let dept of departments" [value]="dept">{{ dept }}</option>
+      </select>
+      <button (click)="searchByDepartment()">Search by Department</button>
+  
+      <button (click)="fetchAll()">View All Employees</button>
+    </div>
+  
+    <!-- Add Employee Form -->
+    <div class="form-section">
+      <h2>Add / Update Employee</h2>
+      <input type="text" placeholder="Name" [(ngModel)]="newEmployee.name">
+      <input type="email" placeholder="Email" [(ngModel)]="newEmployee.email">
+  
+      <select [(ngModel)]="newEmployee.department">
+        <option value="" disabled selected>Select Department</option>
+        <option *ngFor="let dept of departments" [value]="dept">{{ dept }}</option>
+      </select>
+  
+      <button (click)="saveEmployee()">Save Employee</button>
+    </div>
+  
+    <!-- Employee List -->
+    <div class="list-section" *ngIf="employees.length > 0">
+      <h2>Employee List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Created At</th>
+            <th>Updated At</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let emp of employees">
+            <td>{{ emp.id }}</td>
+            <td>{{ emp.name }}</td>
+            <td>{{ emp.email }}</td>
+            <td>{{ emp.department }}</td>
+            <td>{{ emp.createdAt | date: 'short' }}</td>
+            <td>{{ emp.updatedAt | date: 'short' }}</td>
+            <td>
+              <button (click)="editEmployee(emp)">Edit</button>
+              <button (click)="deleteEmployee(emp.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+  </div>
+  
