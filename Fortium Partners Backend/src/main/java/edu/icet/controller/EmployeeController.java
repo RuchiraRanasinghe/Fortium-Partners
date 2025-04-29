@@ -27,8 +27,8 @@ public class EmployeeController {
     @PutMapping("/update")
     public void update(@RequestBody Employee employee){service.update(employee);}
 
-    @DeleteMapping("/delete")
-    public void delete(Long id){service.delete(id);}
+    @DeleteMapping("/delete/{id}")
+    public void delete(@PathVariable Long id){service.delete(id);}
 
     @GetMapping("/all")
     public List<Employee> getAll(){return service.getAll();}
