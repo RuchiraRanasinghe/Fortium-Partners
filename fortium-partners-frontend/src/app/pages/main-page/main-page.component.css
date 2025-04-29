@@ -23,6 +23,7 @@ h1, h2 {
 
 input[type="text"],
 input[type="email"],
+input[type="number"],
 select,
 button {
   margin: 8px 5px;
