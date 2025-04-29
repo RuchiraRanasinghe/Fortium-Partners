@@ -34,4 +34,8 @@ export class EmployeeService {
   delete(id: number): Observable<any> {
     return this.http.delete(`${this.baseUrl}/delete/${id}`);
   }
+
+  exportCSV(): Observable<Blob> {
+    return this.http.get(`${this.baseUrl}/export`, { responseType: 'blob' });
+  }  
 }

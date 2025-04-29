@@ -98,4 +98,16 @@ export class MainPageComponent implements OnInit {
     };
     this.editing = false;
   }
+
+  downloadCSVFromBackend(): void {
+    this.employeeService.exportCSV().subscribe((blob) => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'employees_report.csv';
+      a.click();
+      window.URL.revokeObjectURL(url);
+    });
+  }
+  
 }
