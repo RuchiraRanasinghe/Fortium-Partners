@@ -22,7 +22,7 @@ public class User {
     private String email;
     private String password;
     @NotNull(message = "Department cannot be empty")
-    private Department department;
+    private Department department = Department.HR;
     private Date createdAt;
     private Date updatedAt;
 }
