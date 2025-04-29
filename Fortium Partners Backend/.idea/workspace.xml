@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7029801-4fae-421c-9341-7c7470fc58fa" name="Changes" comment="User dto and entity created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/dto/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/entity/UserEntity.java" afterDir="false" />
+    <list default="true" id="f7029801-4fae-421c-9341-7c7470fc58fa" name="Changes" comment="backend Auth done">
+      <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,16 @@
   "selectedUrlAndAccountId": {
     "url": "https://github.com/RuchiraRanasinghe/Fortium-Partners.git",
     "accountId": "bce4e64c-69e9-4784-98b0-90a5dd6bb347"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "RuchiraRanasinghe",
+    "repository": "Fortium-Partners"
   }
 }]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -61,7 +68,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "#1 on dev",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
@@ -132,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745918392773</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="backend Auth done">
+      <option name="closed" value="true" />
+      <created>1745920206450</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745920206450</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +165,7 @@
     <MESSAGE value="backend almost done" />
     <MESSAGE value="backend completed" />
     <MESSAGE value="User dto and entity created" />
-    <option name="LAST_COMMIT_MESSAGE" value="User dto and entity created" />
+    <MESSAGE value="backend Auth done" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend Auth done" />
   </component>
 </project>
