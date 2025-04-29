@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="f7029801-4fae-421c-9341-7c7470fc58fa" name="Changes" comment="backend Auth done">
       <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/app.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../fortium-partners-frontend/src/app/pages/login/login.component.ts" afterDir="false" />
     </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,11 +33,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RuchiraRanasinghe"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RuchiraRanasinghe&quot;
   }
+
 }]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
@@ -51,17 +54,19 @@
     },
     "owner": "RuchiraRanasinghe",
     "repository": "Fortium-Partners"
+
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2wOMVNiP8CUby5EwQ6fXpxRCGfr" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
@@ -78,6 +83,7 @@
       <recent name="edu.icet.entity" />
     </key>
   </component>
+
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.icet.Main" />
