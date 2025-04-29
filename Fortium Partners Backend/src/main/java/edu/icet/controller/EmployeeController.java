@@ -18,10 +18,10 @@ public class EmployeeController {
     @PostMapping("/add")
     public void add(@RequestBody Employee employee){service.add(employee);}
 
-    @GetMapping("/search/{id}")
+    @GetMapping("/searchById/{id}")
     public Employee searchById(@PathVariable Long id){return service.searchByID(id);}
 
-    @GetMapping("/search/{department}")
+    @GetMapping("/searchByDepartment/{department}")
     public List<Employee> searchByDepartment(@PathVariable Department department){return service.searchByDepartment(department);}
 
     @PutMapping("/update")
