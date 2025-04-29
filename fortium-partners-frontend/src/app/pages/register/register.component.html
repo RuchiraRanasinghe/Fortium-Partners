@@ -1,0 +1,21 @@
+<div class="auth-wrapper">
+    <div class="auth-card">
+      <h2 class="auth-title">HR Register</h2>
+  
+      <input class="auth-input" type="text" placeholder="Full Name" [(ngModel)]="user.name" />
+      <input class="auth-input" type="email" placeholder="Email" [(ngModel)]="user.email" />
+  
+      <select class="auth-input" [(ngModel)]="user.department">
+        <option value="HR">HR</option>
+      </select>
+  
+      <input class="auth-input" type="password" placeholder="Password" [(ngModel)]="user.password" />
+      <button class="auth-button" (click)="register()">Register</button>
+  
+      <p class="auth-message" *ngIf="message">{{ message }}</p>
+      <p class="auth-switch">
+        Already have an account? <a (click)="switchToLogin()">Login here</a>
+      </p>
+    </div>
+</div>
+  
